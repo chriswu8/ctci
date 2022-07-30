@@ -34,13 +34,13 @@ public class Example1RecursiveCalls
 }
 
 /*
- * Notes
- *
- * Each call stack adds a level to the stack, and takes up memory:
- * sum(3)
- *   -> sum(2)
- *     -> sum(1)
- *       -> sum(0)
- *
- * Code like this takes O(n) time and O(n) space
+Notes
+
+Each call stack adds a level to the stack, and takes up memory:
+sum(3)
+   -> sum(2)
+     -> sum(1)
+       -> sum(0)
+
+Code like this takes O(n) time and O(n) space
  */
